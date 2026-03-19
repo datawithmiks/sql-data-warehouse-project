@@ -25,6 +25,10 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+---
+### 🏗️ Data Architecture
+The data architecture of this project follows Medallion Architecture **Bold**,**Silver**, and **Gold** layers:
+
 
 ---
 
