@@ -23,13 +23,16 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+#### These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 ---
 ### 🏗️ Data Architecture
-The data architecture of this project follows Medallion Architecture **Bold**,**Silver**, and **Gold** layers:
+The data architecture of this project follows Medallion Architecture **Bold**, **Silver**, and **Gold** layers:
 
+![Data Architecture](docs/data_architecture.png)
 
+1. **Bronze Layer**: Store data as is from the source systems. Data is ingested from teh CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization process to prepare data for analytics.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 ---
 
 ### 🛡️ License
